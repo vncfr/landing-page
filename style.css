@@ -57,8 +57,7 @@ a {
 }
 
 .subtitle,
-.header ul,
-.information {
+.header ul {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -76,34 +75,45 @@ a {
     border-radius: 8px;
 }
 
+.information-title,
+.information {
+    color: #1F2937;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 48px;
+    gap: 48px;
+}
+
 .information-title {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 36px;
     font-weight: 900;
-    margin: 48px;
 }
 
-.random-information {
-    padding: 24px;
-    gap: 16px;
+.information-images {
     display: flex;
     justify-content: center;
+    gap: 48px;
 }
 
 .information {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
-    border: 1px solid black;
+    width: 150px;
     justify-content: center;
     text-align: center;
+    gap: 8px;
 }
 
 .random-information img {
     width: 150px;
     height: 150px;
-    border-radius: 8px;
+    border-radius: 16px;
     border: 4px solid #3882F6;
 }
