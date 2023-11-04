@@ -76,7 +76,8 @@ a {
 }
 
 .information-title,
-.information {
+.information,
+.quote {
     color: #1F2937;
 }
 
@@ -116,4 +117,29 @@ a {
     height: 150px;
     border-radius: 16px;
     border: 4px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 48px;
+    background-color: #E5E7EB;
+}
+
+.quote-text,
+.quote-att {
+    width: 60%;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-att {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
 }
